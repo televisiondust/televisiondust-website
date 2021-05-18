@@ -21,8 +21,8 @@
       "~/*": ["./app/*"],
       "@/*": ["./app/*"]
     },
-    "types": ["@types/node", "@types/jest", "@nuxt/types"]
+    "types": ["@types/node", "@types/jest", "@nuxt/types", "@nuxtjs/axios"]
   },
-  "include": ["./app/**/*.ts", "./app/**/*.vue"],
+  "include": ["./app/**/*.ts", "./app/**/*.vue", "app/static/skew.js","app/tailwind.config.js"],
   "exclude": ["node_modules"]
 }
